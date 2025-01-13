@@ -12,8 +12,8 @@ export class DashboardService {
     this.token=localStorage.getItem("token");
 
   }
-  private apiUrl="http://localhost:8000"
-  //private apiUrl= "https://challenge-back-2-0.onrender.com";
+  //private apiUrl="http://localhost:8000"
+  private apiUrl= "https://challenge-back-2-0.onrender.com";
   /**
    *GET
           Obtener usuario por mail    x

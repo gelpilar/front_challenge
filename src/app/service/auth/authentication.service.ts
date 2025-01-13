@@ -6,8 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class AuthenticationService {
 
-  private apiUrl="http://localhost:8000"
-   //private apiUrl= "https://challenge-back-2-0.onrender.com";
+  //private apiUrl="http://localhost:8000"
+   private apiUrl= "https://challenge-back-2-0.onrender.com";
 
   constructor() { }
 
