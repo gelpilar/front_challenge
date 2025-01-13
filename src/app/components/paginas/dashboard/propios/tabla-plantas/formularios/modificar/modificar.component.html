@@ -1,0 +1,52 @@
+<span id="formulario_cont">
+    <h5>Editar planta</h5>
+    <form action="crear()" id="formulario">
+        <span class="input_conte">
+            <span id="label">
+
+            
+            <label for="">Nombre planta</label>
+            <input id="in" type="text" [placeholder]="nombre" [(ngModel)]="nombre" name="nombre" disabled>
+    </span>
+    <span id="label">
+            <label for="">País</label>
+            <input id="in" type="text" [placeholder]="nombrePais" [(ngModel)]="nombrePais" name="nombrePais"  disabled>
+                
+              </span>
+        </span>
+        
+        <span class="input_conte">
+            <span id="label">
+
+            
+            <label for="">Cantidad de lecturas</label>
+            <input id="in" type="number" min="0" [placeholder]="cantidadLecturas" [(ngModel)]="cantidadLecturas" name="cantidadLecturas" >
+    </span>
+    <span id="label">
+        <label for="">Cantidad de deshabilitados</label>
+        <input id="in" type="number" min="0" [placeholder]="cantidadDeshabilitados" [(ngModel)]="cantidadDeshabilitados" name="cantidadDeshabilitados" >
+                
+              </span>
+        </span>
+        <span class="input_conte">
+            <span id="label">
+        <label for="">Alertas medias</label>
+        <input id="in" type="number" min="0" [placeholder]="alertasMedias" [(ngModel)]="alertasMedias" name="alertasMedias" >
+                
+              </span>
+            <span id="label">
+
+            
+            <label for="">Alertas rojas</label>
+            <input id="in" type="number" min="0" [placeholder]="alertasRojas" [(ngModel)]="alertasRojas" name="alertasRojas" >
+    </span>
+    
+        </span>
+        
+          <span id="botones">
+            <button id="cancelar" type="button" (click)="cerrar()">Cancelar</button>
+            <button id="enviar" type="submit" (click)="crear()" style="cursor: pointer">Crear</button>
+          </span>
+          
+    </form>
+</span>

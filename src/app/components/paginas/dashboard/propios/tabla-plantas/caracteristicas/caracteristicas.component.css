@@ -1,0 +1,64 @@
+#contenedor
+{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    gap: 10px; 
+    padding-top: 2rem;
+}
+
+
+#iconos
+{
+    display: flex;
+    margin-left: 3rem;
+    
+}
+.icono
+{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+ 
+}
+#indi
+{
+    display: flex;
+    margin: 0.5rem;
+    
+}
+#cuerpo h1
+{
+    font-size: 0.75rem;
+     font-weight: 400;
+     color: gray;
+}
+#cuerpo h2
+{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+#texto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7.563rem;
+    
+    
+}
+
+@media(max-width: 767px )
+{
+
+    #contenedor
+{
+    display: grid;
+    
+    grid-template-columns: 1fr  ; 
+    gap: 10px; 
+}
+
+}

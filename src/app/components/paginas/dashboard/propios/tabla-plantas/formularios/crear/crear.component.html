@@ -1,0 +1,20 @@
+<span id="formulario_cont">
+    <h5>Crear planta</h5>
+    <form action="crear()" id="formulario">
+        <label for="">Nombre planta</label>
+        <input id="in" type="text" placeholder="Ingrese nombre" [(ngModel)]="nombre" name="nombre">
+
+        <label for="">País</label>
+        <select   name="lenguajes" id="lang" [(ngModel)]="id_pais" >
+            <option class="primera"  value="0">Seleccionar</option>
+            <option  *ngFor="let pais of paises" [value]="pais.id">{{pais.nombre}}</option>
+            
+          </select>
+        
+          <span id="botones">
+            <button id="cancelar" type="button" (click)="cerrar()">Cancelar</button>
+            <button id="enviar" type="submit" (click)="crear()" style="cursor: pointer">Crear</button>
+          </span>
+          
+    </form>
+</span>

@@ -1,0 +1,36 @@
+#dashboard
+{
+    background-color: #E9F1F4;
+    width:fit-content;
+   height: 100%;
+    margin: 0;
+
+    display: flex;   
+    font-family: poppins;
+    
+    
+    
+}
+
+@media(max-width: 767px )
+{
+    #izquierda
+    {
+        display: none;
+
+    }
+   
+    #dashboard
+{
+    background-color: #E9F1F4;
+    width:min-content;
+   height: 100%;
+    margin: 0;
+
+    display: flex;   
+    font-family: poppins;
+    
+    
+    
+}
+}

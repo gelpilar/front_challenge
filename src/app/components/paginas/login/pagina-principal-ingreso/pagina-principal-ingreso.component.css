@@ -1,0 +1,132 @@
+
+#fondo
+{
+    background: linear-gradient(#33A3AA,#107076);
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    font-family: Poppins;
+}
+
+#izquierda
+{
+    
+    color: #FFFF;
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#fondo_i
+{
+    background-image: url("../../../../../assets/image\ 3.png");
+    width: 120%;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    opacity:15% ;
+    position: absolute;
+    z-index: 0;
+
+}
+#titulo_i_l
+{
+    font-weight: 600;
+
+    font-size:3rem;
+    margin-bottom: 0;
+    line-height: 3.625rem;
+}
+#descripcion_i_l{
+    font-weight: 400;
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+#contenido
+{
+    
+    position: absolute;
+    width: 400px;
+    text-align: start;
+}
+
+#tarjeta
+{
+    display: flex;
+    
+    align-items: start;
+    text-align: start;
+}
+
+#texto-titulo
+{
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+#texto-contenido
+{
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin: 0;
+    width:  23.438rem;
+}
+#imagen_t_l
+{
+    margin: 0.75rem;
+    margin-top: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height:1.063rem ;
+}
+
+
+#derecha
+{
+    height: 100vh;
+    width: 60%;
+    background-color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    border-radius:  2rem 0   0 2rem ;
+    z-index: 1;
+    flex-direction: column;
+}
+@media(max-width: 767px )  {
+   
+    #izquierda
+    {
+        width: 0rem;
+    }
+    #derecha
+    {
+        height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    border-radius: 0;
+    z-index: 1;
+    }
+    
+}
+
+#cambioPantalla
+{
+ background-color: transparent;
+ border-style: none;
+ color:#33A3AA;
+ 
+ 
+}

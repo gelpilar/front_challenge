@@ -1,0 +1,29 @@
+#menu_horizontal
+{
+    background-color: #ffff;
+    width: 5rem;
+    height: 70rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+   
+}
+.ico
+{
+    margin: 2.625rem;
+    margin-left:1.5rem ;
+}
+#user_option
+{
+    margin-top:1rem;
+    margin-bottom:4.563rem ;
+}
+@media(max-width: 767px )
+{
+    #menu_horizontal
+    {
+        display: none;
+
+    }
+   
+}

@@ -1,0 +1,65 @@
+#cuerpo_nav
+{
+    width: 90vw;
+    height: 3rem;
+
+    justify-content: space-between;
+    display: flex;
+    align-items: start;
+    margin-top: 3.125rem;
+    margin-left: 1.875rem;
+}
+#botonNav
+{
+    display: none;
+}
+#titu
+{
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.813rem;
+}
+
+#derecha
+{
+    display: flex;
+    align-items: center;
+}
+
+#derecha p{
+    margin-left: 0.875rem;
+}
+
+#derecha span
+{
+    margin-left:1.25rem ;
+    margin-right:1.25rem ;
+}
+
+@media(max-width: 767px )  
+{
+    #titu
+    {
+        display: none;
+    }
+   
+#botonNav
+{
+    display: flex;
+    background-color: transparent;
+    border-style:none ;
+
+}
+#derecha p{
+   display: none;
+}
+#idiomas
+{
+    display: none;
+}
+#ajustes
+{
+    display: none;
+}
+}

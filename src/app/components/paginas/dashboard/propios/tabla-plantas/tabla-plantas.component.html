@@ -1,0 +1,23 @@
+<span id="cuerpo">
+<app-alertas [id_usuario]="id_user" [control]="control"></app-alertas>
+
+<section id="tabla">
+    <span *ngIf="validatorCreate || validatorModif" id="capa"></span>
+    <span id="arriba">
+        <h1>Plantas</h1>
+        <button type="button" (click)="crear()">+ Crear nueva planta</button>
+    </span>
+    <hr size="1px" color="gray" />
+
+
+    <span id="abajo">
+        
+        <app-tabla [cambioIdCaracteristicas]="cambioIdCaracteristicas" [funcioncambio]="modificar"  [control]="control" [cambioId]="cambiarId"  [id]="id_user">
+            </app-tabla>   <app-caracteristicas [id_caracteristicas]="id_seleccionada"></app-caracteristicas>  </span>
+        
+        
+</section>
+<span id="formularios">
+    <app-crear [id_usuario]="id_user" [cambio]="cambioHecho" *ngIf="validatorCreate" [funcion]="cerrarC"></app-crear>
+    <app-modificar  [cambio]="cambioHecho" [id_planta]="id_planta" [funcion]="modificar"  *ngIf="  validatorModif"></app-modificar></span></span>
+

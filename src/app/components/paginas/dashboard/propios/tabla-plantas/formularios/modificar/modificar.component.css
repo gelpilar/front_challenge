@@ -1,0 +1,130 @@
+#formulario_cont
+{
+    background-color: #fff;
+    width: 45rem;
+    height: 22.5rem;
+    display: flex;
+    position: relative;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.938rem;
+    padding: 2rem;
+    
+    
+}
+label{
+    font-size:0.875rem ;
+    color: #838B9E;
+    margin-left:1rem ;
+    
+}
+h5{
+    font-size:0.875rem ;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+#formulario
+{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+
+#botones
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+button
+{
+    width: 6.25rem;
+    height: 2.25rem;
+    margin: 0.5rem;
+    background-color: transparent;
+    border-color: #33A3AA;
+    border-radius:0.313rem ;
+    border-style:solid ;
+    border-width: 0.063rem;
+    font-family: poppins;
+}
+
+#cancelar
+{
+    color: #33A3AA;
+}
+#enviar
+{
+    background-color: #33A3AA;
+    color: #fff;
+
+}
+input , select
+{
+    width: 20rem;
+    height: 2.625rem;
+    border-color: #C6C9D2;
+    border-style: solid;
+    border-radius:0.464rem ;
+    border-width: 0.058rem ;
+    font-family: poppins;
+
+}
+
+.primera
+{
+    color: #BABEC5;
+ 
+}
+input
+{
+   
+    width: 19rem;
+    padding-left: 1rem;
+    margin: 1rem;
+}
+.input_conte
+{
+    display: flex ;
+    text-align:left;    
+}
+@media(max-width: 767px )
+{
+    #formulario_cont
+    {
+        background-color: #fff;
+        width: 45rem;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 0.938rem;
+        padding: 2rem;
+        
+        
+    }
+    
+    #label
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .input_conte{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+
+}

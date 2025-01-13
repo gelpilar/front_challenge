@@ -1,0 +1,38 @@
+#cuerpo
+{
+    width: 15.5rem;
+    height: 5.875rem;
+    background-color: #fff;
+    display: flex;
+    font-size: 0.75rem;
+    line-height: 18px;
+    position: relative;
+    margin: 1rem;
+    border-radius: 0.938rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#cuerpo h1
+{
+    font-size: 0.75rem;
+     font-weight: 400;
+     color: gray;
+}
+#cuerpo h2
+{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+#texto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7.563rem;
+    
+}
